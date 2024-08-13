@@ -7,7 +7,7 @@ def main():
     reversed_list = reverse_dict(numbers_dict)
     print(f"--- Begin report of {book_path} ---")
     print(f"{num_words} words found in the document \n")
-    print(print_dict_in_list(reversed_list))
+    print_dict_in_list(reversed_list)
     print("=== end ===")
 
 def get_num_words(text):
